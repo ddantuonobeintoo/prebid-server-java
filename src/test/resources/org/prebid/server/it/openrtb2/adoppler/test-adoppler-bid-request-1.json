@@ -1,0 +1,42 @@
+{
+  "id": "request_id-adunit",
+  "imp": [
+    {
+      "id": "imp_id",
+      "banner": {
+        "w": 100,
+        "h": 200
+      },
+      "ext": {
+        "bidder": {
+          "adunit": "adunit",
+          "client": "testClient"
+        }
+      }
+    }
+  ],
+  "site": {
+    "domain": "www.example.com",
+    "page": "http://www.example.com",
+    "publisher": {
+      "domain": "example.com"
+    },
+    "ext": {
+      "amp": 0
+    }
+  },
+  "device": {
+    "ua": "userAgent",
+    "ip": "193.168.244.1"
+  },
+  "at": 1,
+  "tmax": 5000,
+  "cur": [
+    "USD"
+  ],
+  "regs": {
+    "ext": {
+      "gdpr": 0
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "request_id",
+  "imp": [
+    {
+      "id": "imp_id",
+      "banner": {
+        "format": [
+          {
+            "w": 300,
+            "h": 250
+          }
+        ],
+        "w": 300,
+        "h": 250
+      },
+      "tagid": "1007",
+      "secure": 1,
+      "ext": {
+        "bidder": {
+          "dmxid": "1007",
+          "memberid": "123456",
+          "seller_id": "1008",
+          "publisher_id": "10400"
+        }
+      }
+    }
+  ],
+  "site": {
+    "domain": "www.example.com",
+    "page": "http://www.example.com",
+    "publisher": {
+      "id": "10400",
+      "domain": "example.com",
+      "ext": {
+        "dmx": {
+          "id": "10400"
+        }
+      }
+    },
+    "ext": {
+      "amp": 0
+    }
+  },
+  "device": {
+    "ua": "userAgent",
+    "ip": "193.168.244.1"
+  },
+  "user": {
+    "ext": {
+      "consent": "consentValue",
+      "eids": [
+        {
+          "source": "adserver.org",
+          "uids": [
+            {
+              "id": "id"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "at": 1,
+  "tmax": 5000,
+  "cur": [
+    "USD"
+  ],
+  "regs": {
+    "ext": {
+      "gdpr": 0
+    }
+  }
+}

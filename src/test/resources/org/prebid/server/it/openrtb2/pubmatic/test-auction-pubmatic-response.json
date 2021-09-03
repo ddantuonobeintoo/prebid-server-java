@@ -1,0 +1,36 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "bid_id",
+          "impid": "imp_id",
+          "price": 4.75,
+          "adm": "adm9",
+          "crid": "crid9",
+          "w": 300,
+          "h": 600,
+          "ext": {
+            "prebid": {
+              "type": "banner"
+            },
+            "origbidcpm": 4.75
+          }
+        }
+      ],
+      "seat": "pubmatic",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "pubmatic": "{{ pubmatic.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "request_id",
+  "imp": [
+    {
+      "id": "imp_id",
+      "banner": {
+        "w": 300,
+        "h": 250
+      },
+      "ext": {
+        "prebid": {
+          "bidder": {
+            "sharethrough": {
+              "pkey": "abc123",
+              "iframe": true,
+              "iframeSize": [
+                50,
+                50
+              ],
+              "bidfloor": 3.5
+            }
+          }
+        }
+      }
+    }
+  ],
+  "tmax": 5000,
+  "regs": {
+    "ext": {
+      "gdpr": 0
+    }
+  }
+}

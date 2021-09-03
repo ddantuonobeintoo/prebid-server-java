@@ -1,0 +1,36 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "request_id",
+          "impid": "imp_id",
+          "price": 0.5,
+          "adm": "<blink>Remember this: https://www.google.com/search?q=blink+tag ?</blink>",
+          "crid": "1234567890",
+          "w": 300,
+          "h": 250,
+          "ext": {
+            "prebid": {
+              "type": "banner"
+            },
+            "origbidcpm": 0.5
+          }
+        }
+      ],
+      "seat": "consumable",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "consumable": "{{ consumable.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}

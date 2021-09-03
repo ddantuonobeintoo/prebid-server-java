@@ -1,0 +1,37 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "adoceanmyaozpniqismex",
+          "impid": "imp_id",
+          "price": 10,
+          "adm": " <script> +function() { var wu = \"https://win-url.com\"; var su = \"https://stats-url.com\".replace(/\\[TIMESTAMP\\]/, Date.now()); if (wu && !(navigator.sendBeacon && navigator.sendBeacon(wu))) { (new Image(1,1)).src = wu } if (su && !(navigator.sendBeacon && navigator.sendBeacon(su))) { (new Image(1,1)).src = su } }(); </script>  <!-- code 1 --> ",
+          "crid": "0af345b42983cc4bc0",
+          "w": 300,
+          "h": 250,
+          "ext": {
+            "prebid": {
+              "type": "banner"
+            },
+            "origbidcpm": 10,
+            "origbidcur": "USD"
+          }
+        }
+      ],
+      "seat": "adocean",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "adocean": "{{ adocean.response_time_ms }}"
+    },
+    "tmaxrequest": 5000,
+    "prebid": {
+      "auctiontimestamp": 0
+    }
+  }
+}

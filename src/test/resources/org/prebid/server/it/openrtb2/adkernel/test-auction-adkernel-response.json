@@ -1,0 +1,39 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "bid_id",
+          "impid": "imp_id",
+          "price": 2.25,
+          "adm": "<!-- admarkup -->",
+          "adid": "2002",
+          "adomain": [
+            "tag-example.com"
+          ],
+          "cid": "1001",
+          "crid": "2002",
+          "ext": {
+            "prebid": {
+              "type": "banner"
+            },
+            "origbidcpm": 2.25
+          }
+        }
+      ],
+      "seat": "adkernel",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "adkernel": "{{ adkernel.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}

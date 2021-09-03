@@ -1,0 +1,41 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "bid_id",
+          "impid": "imp_id",
+          "price": 0.5,
+          "adm": "some-test-ad",
+          "adid": "adid",
+          "adomain": [
+            "advertsite.com"
+          ],
+          "cid": "cid",
+          "crid": "crid",
+          "w": 1024,
+          "h": 576,
+          "ext": {
+            "prebid": {
+              "type": "banner"
+            },
+            "origbidcpm": 0.5
+          }
+        }
+      ],
+      "seat": "smartadserver",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "smartadserver": "{{ smartadserver.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}

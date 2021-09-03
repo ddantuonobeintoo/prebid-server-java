@@ -1,0 +1,43 @@
+package org.prebid.server.bidder.adform.model;
+
+import lombok.Builder;
+import lombok.Value;
+
+import java.util.List;
+
+@Builder
+@Value
+public class UrlParameters {
+
+    List<Long> masterTagIds;
+
+    List<String> keyValues;
+
+    List<String> keyWords;
+
+    List<String> priceTypes;
+
+    List<String> cdims;
+
+    List<Double> minPrices;
+
+    String endpointUrl;
+
+    String tid;
+
+    String ip;
+
+    String advertisingId;
+
+    boolean secure;
+
+    String gdprApplies;
+
+    String consent;
+
+    String currency;
+
+    String eids;
+
+    String url;
+}

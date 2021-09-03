@@ -1,0 +1,44 @@
+{
+  "at": 1,
+  "cur": [
+    "USD"
+  ],
+  "device": {
+    "ip": "193.168.244.1",
+    "ua": "userAgent"
+  },
+  "id": "request_id",
+  "imp": [
+    {
+      "banner": {
+        "h": 250,
+        "w": 300
+      },
+      "ext": {
+        "bidder": {
+          "force_bid": true,
+          "pub_id": "1234",
+          "zone_id": "N4zTDq3PPEHBIODv7cXK"
+        }
+      },
+      "id": "imp_id",
+      "tagid": "N4zTDq3PPEHBIODv7cXK"
+    }
+  ],
+  "regs": {
+    "ext": {
+      "gdpr": 0
+    }
+  },
+  "site": {
+    "domain": "www.example.com",
+    "ext": {
+      "amp": 0
+    },
+    "page": "http://www.example.com",
+    "publisher": {
+      "domain": "example.com"
+    }
+  },
+  "tmax": 5000
+}

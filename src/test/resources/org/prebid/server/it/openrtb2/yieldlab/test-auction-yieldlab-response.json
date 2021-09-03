@@ -1,0 +1,38 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "12345",
+          "impid": "imp_id",
+          "price": 2.29,
+          "crid": "",
+          "dealid": "1234",
+          "w": 400,
+          "h": 300,
+          "adm": "",
+          "ext": {
+            "origbidcpm": 2.01,
+            "origbidcur": "EUR",
+            "prebid": {
+              "type": "banner"
+            }
+          }
+        }
+      ],
+      "seat": "yieldlab",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "yieldlab": "{{ yieldlab.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}

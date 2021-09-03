@@ -1,0 +1,59 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "bid_id1",
+          "impid": "imp_id1",
+          "price": 1.25,
+          "adm": "adm001",
+          "crid": "crid001",
+          "w": 300,
+          "h": 250,
+          "ext": {
+            "prebid": {
+              "type": "banner"
+            },
+            "origbidcpm": 1.25
+          }
+        },
+        {
+          "id": "bid_id2",
+          "impid": "imp_id2",
+          "price": 2.25,
+          "adm": "adm002",
+          "adid": "29681110",
+          "adomain": [
+            "video-example.com"
+          ],
+          "cid": "1001",
+          "crid": "crid002",
+          "cat": [
+            "IAB2"
+          ],
+          "w": 640,
+          "h": 480,
+          "ext": {
+            "prebid": {
+              "type": "video"
+            },
+            "origbidcpm": 2.25
+          }
+        }
+      ],
+      "seat": "adman",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "adman": "{{ adman.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}
